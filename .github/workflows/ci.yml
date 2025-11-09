@@ -28,7 +28,7 @@ jobs:
     
     - name: Run tests
       run: |
-        pytest tests/ -v --cov=src --cov-report=term-missing
+        pytest tests/ -v --cov=app --cov-report=term-missing
       continue-on-error: true
     
     - name: Lint with flake8
